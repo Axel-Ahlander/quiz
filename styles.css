@@ -51,24 +51,28 @@ main {
     position: absolute;
     top: 200px;
     left: 100px;
-    object-fit: cover;
 }
 
 #options {
     display: flex;
-    margin: 50px auto;
-    position: relative;
-    border: 1px solid black;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    width: 100%;
     flex-direction: row;
-    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 10px;
 }
 
 button {
-    height: 400px;
-    width: 100%;
     object-fit: cover;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 300px;
+    max-width: 350px;
+    border: 2px solid black;
+    padding: 12px;
+}
+
+.header {
+    
 }
